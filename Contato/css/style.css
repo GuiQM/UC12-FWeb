@@ -1,0 +1,50 @@
+#cabeçalho  {
+    background-color: blue;
+    text-align: left;
+    height: 45px;
+    font-size: 40px;
+    text-align: left;
+}
+
+#imagemInicial  {
+    display: flex;
+}
+
+#photo  {
+    height: 200px;
+    width: 200px;
+}
+
+#wLogo  {
+    height: 50px;
+    width: 50px;
+}
+
+#iLogo  {
+    height: 50px;
+    width: 50px;
+}
+
+#gLogo  {
+    height: 50px;
+    width: 50px;
+}
+
+#dNone{
+    display: none;
+}
+
+#divWhatsapp  {
+    display: flex;
+    align-items: center;
+}
+
+#divInstagram   {
+    display: flex;
+    align-items: center;
+}
+
+#divGit {
+    display: flex;
+    align-items: center; 
+}
