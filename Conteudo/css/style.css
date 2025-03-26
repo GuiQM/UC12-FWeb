@@ -1,0 +1,30 @@
+#fotoPerfil {
+    height: 10%;
+    width: 10%;
+    margin-left: 10px;
+}
+
+.conteudos {
+    display: inline;
+    margin-left: 35px;
+}
+
+.menu-conteudo {
+    background-color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 340px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.busca {
+    background-color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+
+}

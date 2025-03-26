@@ -1,0 +1,17 @@
+.dpainel {
+    height: 600px;
+    width: 800px;
+    background-color: #008000;
+    position: relative;
+
+}
+
+#imgShrek {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 240px;
+
+}
+
