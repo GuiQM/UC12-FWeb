@@ -1,50 +1,56 @@
-#cabeçalho  {
-    background-color: blue;
+* {}
+
+#cabeçalho {
+    background-color: gray;
     text-align: left;
     height: 45px;
     font-size: 40px;
     text-align: left;
+    text-align: center;
+
 }
 
-#imagemInicial  {
+#imagemInicial {
     display: flex;
+    height: auto;
+    width: 700px;
+    background-color: gainsboro;
+    border: solid;
 }
 
-#photo  {
+#photo {
     height: 200px;
     width: 200px;
 }
 
-#wLogo  {
-    height: 50px;
-    width: 50px;
+#dNone img {
+    height: auto;
+    width: 30px;
 }
 
-#iLogo  {
-    height: 50px;
-    width: 50px;
-}
 
-#gLogo  {
-    height: 50px;
-    width: 50px;
-}
-
-#dNone{
-    display: none;
-}
-
-#divWhatsapp  {
+#divWhatsapp {
     display: flex;
     align-items: center;
 }
 
-#divInstagram   {
+#divInstagram {
     display: flex;
     align-items: center;
 }
 
 #divGit {
     display: flex;
-    align-items: center; 
+    align-items: center;
+}
+
+main {
+    margin-top: 50px;
+    justify-self: center;
+
+}
+
+figure {
+    margin: 10px;
+    align-items: center;
 }

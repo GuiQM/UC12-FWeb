@@ -1,12 +1,13 @@
 #fotoPerfil {
     height: 10%;
     width: 10%;
-    margin-left: 10px;
+    margin-left: 5%;
 }
 
 .conteudos {
     display: inline;
     margin-left: 35px;
+    font-size: 130%;
 }
 
 .menu-conteudo {
@@ -27,4 +28,11 @@
     margin-right: 10px;
     float: left;
 
+}
+
+#backMenu   {
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    margin: 0;
 }

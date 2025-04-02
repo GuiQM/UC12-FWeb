@@ -35,3 +35,8 @@ li {
     display: inline;
     margin-left: 20px;
 }
+
+.container img  {
+    height: auto;
+    width: 30%;
+}
