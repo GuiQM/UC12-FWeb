@@ -1,0 +1,61 @@
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.div1 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    border-radius: 80px;
+    box-shadow: inset 10px 10px 3px greenyellow;
+    justify-content: center;
+    background-image:url(https://img.freepik.com/fotos-gratis/prancha-azul-com-ovos-de-pascoa-coloridos_329181-3462.jpg?semt=ais_hybrid&w=740);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+
+
+.pascoaEgg1  {
+    position: absolute;
+    right: 35%;
+    top: 60%;
+    width: 50px;
+    height: 50px;
+}
+
+.topo {
+    position: absolute;
+    text-shadow: 1px 1px black;
+}
+
+p   {
+    display: flex;
+    align-self: center;
+}
+
+#bunny {
+    position: absolute;
+    width: 7%;
+    height: auto;
+    top: 55%;
+    animation: bunny-animation 3s infinite linear;
+}
+
+@keyframes bunny-animation {
+    from {
+        left: 35%;
+    }
+
+    to {
+        left: 55%;
+    }
+}
