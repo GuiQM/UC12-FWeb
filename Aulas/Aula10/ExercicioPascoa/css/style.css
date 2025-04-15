@@ -24,12 +24,13 @@ main{
 
 
 
-.pascoaEgg1  {
+.pascoaEgg  {
     position: absolute;
     right: 35%;
     top: 60%;
     width: 50px;
     height: 50px;
+    transition: 0s;
 }
 
 .topo {
@@ -58,4 +59,10 @@ p   {
     to {
         left: 55%;
     }
+}
+
+.pascoaEgg:hover   {
+    rotate: 25deg;
+    width: 65px;
+    height: 65px;
 }

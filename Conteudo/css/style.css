@@ -68,6 +68,7 @@ footer a[href*="wa.me"] {
     text-indent: -9999px;
     display: block;
     margin-top: 5px;
+
 }
 
 footer {
@@ -83,29 +84,10 @@ footer {
     display: block;
 }
 
-a:before    {
+a::before    {
     content: "<";
 }
 
-a:after {
+a::after {
     content: ">";
-}
-
-
-.mouse  {
-    position: absolute;
-    height: auto;
-    width: 50px;
-    top: 100%;
-animation: mouse-animation 2s infinite linear;
-}
-
-@keyframes mouse-animation {
-    from    {
-        right: 100%;
-    }
-
-    to  {
-        right: 0px;
-    }
 }
