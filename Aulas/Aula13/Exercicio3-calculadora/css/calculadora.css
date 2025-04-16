@@ -1,0 +1,10 @@
+#botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 30%;
+}
+
+
+button  {
+    line-height: 50px;
+}
