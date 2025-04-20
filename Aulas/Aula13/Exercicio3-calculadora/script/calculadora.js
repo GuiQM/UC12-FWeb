@@ -3,32 +3,37 @@ let input = document.querySelector("#inputText");
 let textValue = "";
 
 
-function addNumber(number)  {
+function addNumber(number) {
     textValue += number;
     updateText();
 }
 
 
-function addOperator(operator)  {
+function addOperator(operator) {
     textValue += operator;
     updateText();
 }
 
-function addDecimal()   {
+function addDecimal() {
     textValue += ".";
     updateText();
 }
 
-function clearText()    {
+function clearText() {
     textValue = "";
     updateText();
 }
 
-function updateText()   {
+function returnCharacter() {
+    textValue = input.value.slice(0, -1);
+    updateText();
+}
+
+function updateText() {
     input.value = textValue;
 }
 
-function calculate()    {
+function calculate() {
     textValue = eval(textValue);
     updateText();
 }
