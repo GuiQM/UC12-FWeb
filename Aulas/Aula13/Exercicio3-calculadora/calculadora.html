@@ -9,34 +9,37 @@
 </head>
 
 <body>
+
     <main>
-        <input type="text" id="inputText">
-        <div id="botoes">
+        <div id="calculadora">
+            <input type="text" id="inputText">
+            <div id="botoes">
 
-            <button onclick="addOperator('/')">÷</button>
-            <button onclick="addOperator('*')">×</button>
-            <button onclick="addOperator('-')">-</button>
-            <button onclick="returnCharacter()">Backspace</button>
+                <button id="operators" onclick="clearText('C')">AC</button>
+                <button id="operators" onclick="addOperator('/')">÷</button>
+                <button id="operators" onclick="addOperator('*')">×</button>
+                <button id="operators" onclick="addOperator('**')">^</button>
 
-            <button onclick="addNumber('1')">1</button>
-            <button onclick="addNumber('2')">2</button>
-            <button onclick="addNumber('3')">3</button>
-            <button onclick="addOperator('+')">+</button>
+                <button onclick="addNumber('1')">1</button>
+                <button onclick="addNumber('2')">2</button>
+                <button onclick="addNumber('3')">3</button>
+                <button id="operators" onclick="addOperator('+')">+</button>
 
-            <button onclick="addNumber('4')">4</button>
-            <button onclick="addNumber('5')">5</button>
-            <button onclick="addNumber('6')">6</button>
-            <button onclick="addOperator('.')">.</button>
+                <button onclick="addNumber('4')">4</button>
+                <button onclick="addNumber('5')">5</button>
+                <button onclick="addNumber('6')">6</button>
+                <button id="operators" onclick="addOperator('-')">-</button>
 
-            <button onclick="addNumber('8')">8</button>
-            <button onclick="addNumber('7')">7</button>
-            <button onclick="addNumber('9')">9</button>
-            <button onclick="addOperator('%')">%</button>
-            
-            <button onclick="clearText('DEL')">DEL</button>
-            <button onclick="addNumber('0')">0</button>
-            <button onclick="calculate('=')">=</button>
+                <button onclick="addNumber('8')">8</button>
+                <button onclick="addNumber('7')">7</button>
+                <button onclick="addNumber('9')">9</button>
+                <button id="operators" onclick="returnCharacter()">DEL</button>
 
+                <button onclick="addDecimal('.')">.</button>
+                <button onclick="addNumber('0')">0</button>
+                <button id="equals" onclick="calculate('=')">=</button>
+
+            </div>
         </div>
     </main>
     <script src="./script/calculadora.js"></script>

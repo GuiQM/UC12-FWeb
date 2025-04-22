@@ -4,22 +4,47 @@
     height: 100%;
     flex-direction: column;
     align-items: center;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 
 
 #inputText  {
-    width: 29.4%;
-    height: 35px;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    text-align: right;
 }
 
 #botoes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 30%;
+    width: 100%;
+    
 }
 
+#equals {
+    background-color: rgb(49, 163, 235);
+    color: white;
+}
+
+#operators  {
+    background-color: lightgray;
+}
 
 button  {
     line-height: 50px;
+    border: solid black 0.5px;
+    font-size: 15px;
+
+}
+
+button:hover    {
+    background-color: gainsboro;
+}
+
+#calculadora    {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: gainsboro;
 }
