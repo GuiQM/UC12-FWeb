@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,32 +9,34 @@
     <link rel="stylesheet" href="./css/carousel.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="p-3 text-bg-dark">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                        <use xlink:href="#bootstrap" />
-                    </svg>
-                </a>
+        <div id="head">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                </ul>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#head" class="nav-link px-2 text-secondary">Home</a></li>
+                        <li><a href="#biografia" class="nav-link px-2 text-white">Biografia</a></li>
+                        <li><a href="#discografia" class="nav-link px-2 text-white">Discografia</a></li>
+                        <li><a href="#suporte" class="nav-link px-2 text-white">Suporte</a></li>
+                    </ul>
 
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
-                        aria-label="Search">
-                </form>
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                            aria-label="Search">
+                    </form>
 
-                <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2">Login</button>
-                    <button type="button" class="btn btn-warning">Sign-up</button>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-light me-2">Login</button>
+                        <button type="button" class="btn btn-warning">Sign-up</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,43 +50,45 @@
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url(https://portalpopline.com.br/wp-content/uploads/2019/07/racanegra.jpeg)">
+            <div class="carousel-item active"
+                style="background-image: url(https://portalpopline.com.br/wp-content/uploads/2019/07/racanegra.jpeg)">
                 <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice">
                     <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                 </svg>
                 <div class="container">
                     <div class="carousel-caption text-start">
-                        
+
                         <h1>Escute as melhores do Raça Negra músicas aqui!</h1>
                         <p class="opacity-75">As melhores músicas da banda Raça Negra você encontra aqui!</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Sign-up</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#discografia">Vamos Lá!</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-EEo1YOURmQRdTu86qQ5Xg07kLBavLNRQA&s);">
+            <div class="carousel-item"
+                style="background-image: url(https://akamai.sscdn.co/gcs/cifra-blog/pt/wp-content/uploads/2021/08/af2f0fb-raca-negra.jpg);">
                 <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice">
                     <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                 </svg>
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <h1>Raça Negra: mais que uma banda, um fenômeno brasileiro.</h1>
+                        <p>Mais de quatro décadas de sucesso levando amor e pagode aos quatro cantos do Brasil.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#biografia">Leia Mais</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item"
+                style="background-image: url(https://www.aen.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2024-02/20240217_agb_show_raca_negra-25.jpg);">
                 <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice">
                     <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                 </svg>
                 <div class="container">
                     <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        <h1>A era de ouro do pagode.</h1>
+                        <p>músicas eternas — Raça Negra é cultura popular brasileira.</p>
                     </div>
                 </div>
             </div>
@@ -98,19 +103,117 @@
         </button>
     </div>
 
+    <div id="biografia">
+        <h1 id="hBio">Biografia</h1>
+        <div id="bioImg">
+            <p id="pBio">Formada há 40 anos, a banda Raça Negra, comandada por Luiz Carlos, é responsável por inspirar
+                gerações. O primeiro grande sucesso veio com a música Caroline, hit do primeiro CD, “Raça Negra - Vol.
+                01”,
+                lançado em 1991, que representou o início da popularização do samba em todo o país. “Raça Negra e
+                Amigos”,
+                lançado em 2012, contou com diversas participações especiais como Alexandre Pires, e Michel Teló. Após o
+                sucesso do álbum “O Rei do Baile”, que contém releituras das mais famosas músicas brasileiras, a banda
+                resolveu repetir a dose de 2012 e presentear seus fãs de todas as gerações lançando o 5° DVD da sua
+                carreira, o “Raça Negra e Amigos II”. Com a presença de Wesley Safadão, Thiaguinho, Leonardo e outros, o
+                grupo conduz um show de muita interação e nostalgia, cantando seus maiores sucessos, além de também
+                receber
+                no palco os hits memoráveis de seus convidados. "O Mundo Canta Raça Negra gravado em março de 2022,
+                contou
+                com canções inéditas e regravações de grandes hits da banda. Teve a participação da dupla Jorge e
+                Mateus, os
+                cantores Dilsinho e Tierry e as atrações internacionais Anselmo Ralph e Joey Montana e como convidada
+                especial, a atriz Juliana Paes. O repertório viajou pelos 40 anos do Raça Negra e contou com diversos
+                momentos especiais e faixas inéditas. </p>
+
+            <img src="https://i.ibb.co/Rk5kbBVM/raca.png" alt="imgBio">
+            <div id="imgBioBack"></div>
+        </div>
+    </div>
+    <div id="discografia">
+        <h1>Discografia</h1>
+        <div id="musicas">
+            <div>
+                <h3>Cheia de Manias</h3>
+                <a href="https://www.youtube.com/watch?v=cOchidcyv9Q">
+                    <img src="https://i.ytimg.com/vi/cOchidcyv9Q/maxresdefault.jpg" alt="CheiaDeManias">
+                </a>
+            </div>
+            <div>
+                <h3>Cigana</h3>
+                <a href="https://www.youtube.com/watch?v=UOTqk-j67qk">
+                    <img src="https://i.ytimg.com/vi/UOTqk-j67qk/maxresdefault.jpg" alt="Cigana">
+                </a>
+            </div>
+            <div>
+                <h3>Volta</h3>
+                <a href="https://www.youtube.com/watch?v=wzaZb03K2kw">
+                    <img src="https://i.ytimg.com/vi/wzaZb03K2kw/maxresdefault.jpg" alt="Volta">
+                </a>
+            </div>
+            <div>
+                <h3>Estou Mal</h3>
+                <a href="https://www.youtube.com/watch?v=htxAm1X7yAo">
+                    <img src="https://i.ytimg.com/vi/htxAm1X7yAo/maxresdefault.jpg" alt="EstouMal">
+                </a>
+            </div>
+            <div>
+                <h3>Deus me Livre</h3>
+                <a href="https://www.youtube.com/watch?v=bA377Eie9h8">
+                    <img src="https://i.ytimg.com/vi/bA377Eie9h8/maxresdefault.jpg" alt="DeusMeLivre">
+                </a>
+            </div>
+            <div>
+                <h3>Quando te Encontrei</h3>
+                <a href="https://www.youtube.com/watch?v=xVk8QaKghJU">
+                    <img src="https://i.ytimg.com/vi/xVk8QaKghJU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBMNDX4Io4ZGnqVupEiAME_eqENLA"
+                        alt="QuandoTeEncontrei">
+                </a>
+            </div>
+            <div>
+                <h3>Você</h3>
+                <a href="https://www.youtube.com/watch?v=_V8dSKymOh0&list=PL6BXde0y7wz0-l3C0NyP8EcMpl1ni7BNZ">
+                    <img src="https://i.ytimg.com/vi/_V8dSKymOh0/maxresdefault.jpg" alt="Você">
+                </a>
+            </div>
+            <div>
+                <h3>Me Leva Junto com Você</h3>
+                <a href="https://www.youtube.com/watch?v=1UC1El4CrIU&list=PL6BXde0y7wz0-l3C0NyP8EcMpl1ni7BNZ&index=3">
+                    <img src="https://i.ytimg.com/vi/1UC1El4CrIU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBCeQdlLbu43Z0zlaSGjIcSN3Uu_Q" alt="MeLevaJuntoComVocê">
+                </a>
+            </div>
+
+            <div>
+                <h3>Nego Lindo</h3>
+                <a href="https://www.youtube.com/watch?v=oM6PzN5OadA&list=PL6BXde0y7wz0-l3C0NyP8EcMpl1ni7BNZ&index=6">
+                    <img src="https://i.ytimg.com/vi/oM6PzN5OadA/maxresdefault.jpg" alt="NegoLindo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="suporte">
+        <h3>Possui dúvidas? Sugestões?</h3>
+        <div id="submit">
+            <input type="text" id="inputText">
+            <button id="enviar">Enviar</button>
+        </div>
+    </div>
+
     <div class="footer">
         <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-          </ul>
-          <p class="text-center text-body-secondary">&copy; 2025 Company, Inc</p>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#head" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#biografia" class="nav-link px-2 text-body-secondary">Biografia</a></li>
+                <li class="nav-item"><a href="#discografia" class="nav-link px-2 text-body-secondary">Discografia</a>
+                </li>
+                <li class="nav-item"><a href="#suporte" class="nav-link px-2 text-body-secondary">Suporte</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2025 Company, Inc</p>
         </footer>
-      </div>
-  
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
