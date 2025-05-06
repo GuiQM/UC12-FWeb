@@ -1,0 +1,31 @@
+{
+    "pessoas": [
+        {
+            "nome": "Fulano",
+            "idade": 30,
+            "local": {
+                "cidade": "Esteio",
+                "UF": "Rio Grande do Sul",
+                "país": "Brasil"
+            }
+        },
+        {
+            "nome": "Beltrano",
+            "idade": 32,
+            "local": {
+                "cidade": "São Leopoldo",
+                "UF": "Rio Grande do Sul",
+                "país": "Brasil"
+            }
+        },
+        {
+            "nome": "Ciclano",
+            "idade": 25,
+            "local": {
+                "cidade": "Porto Alegre",
+                "UF": "Rio Grande do Sul",
+                "país": "Brasil"
+            }
+        }
+    ]
+}
