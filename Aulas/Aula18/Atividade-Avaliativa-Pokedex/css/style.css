@@ -1,24 +1,88 @@
-* {
-    margin: 0;
-    padding: 0;
+body    {
+    background-color: black;
 }
 
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
 }
 
-#pokedex    {
-    display: flex;
+
+#figPokedex {
+    height: 600px;
+    width: 400px;
+}
+
+
+#imgPokemon {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+
+#container {
+    position: relative;
+}
+
+
+#form {
+    position: absolute;
+    top: 56%;
+    left: 31%;
+}
+
+
+#nomePokemon {
+    position: absolute;
+    top: 65%;
+    left: 38.7%;
+    font-weight: bold;
+}
+
+
+#informacoesPokemon1 {
+    position: absolute;
+    top: 70%;
+    left: 38.7%;
     justify-content: center;
-    align-items: center;
 }
 
-#pokedex img {
-    height: auto;
-    height: 70%;
-    width: 70%;
+
+#informacoesPokemon2 {
+    position: absolute;
+    top: 75%;
+    left: 36%;
 }
+
+
+#botoes{
+    display: flex;
+    position: relative;
+    bottom: 8%;
+    justify-content: space-between;
+    width: 67%;
+    height: 67%;
+    left: 15%;
+}
+
+
+#return {
+    border-radius: 8px;
+    font-size: 150%;
+    background-color: #C0C0C0;
+    font-weight: bold;
+    height: 10%;
+    width: 20%;
+}
+
+
+#advance    {
+    border-radius: 8px;
+    font-size: 150%;
+    background-color: #C0C0C0;
+    font-weight: bold;
+    height: 10%;
+    width: 20%;
+}
+
