@@ -15,9 +15,13 @@
                 <img src="./img/pokedex.png" alt="pokedex"> <!--Imagem Pokédex-->
             </figure>
 
-            <figure id="imgPokemon">
-                <img id="imgPoke" src="" alt="">
-            </figure>
+
+            <div id="divImgPoke">
+                <figure id="imgPokemon">
+                    <img id="imgPoke" src="" alt="">
+                </figure>
+            </div>
+
 
             <form id="form" action="imagem do pokemon">
                 <input id="inputForm" type="text">
@@ -29,24 +33,42 @@
                 <span id="nomePoke"></span>
             </div>
 
+
             <div id="informacoesPokemon1">
-                <span id="tipo1"></span>
+                <!--Mostra os tipos do Pokémon-->
+                <span id="tipo1"><b>Clique no botão ou <br> escreva o id/nome <br> para iniciar</b></span>
+                <!--Texto instruindo o que deve fazer para iniciar-->
                 <span id="tipo2"></span>
             </div>
 
             <div id="informacoesPokemon2">
-                <div id="habilidade"><b>Clique no botão ou <br> escreva o id/nome <br> para iniciar</b></div>
+                <!--Mostra a habilidade do Pokémon-->
+                <div id="habilidade"></div>
+                <!--Mostra o pesodo Pokémon-->
                 <div id="peso"></div>
+                <!--Mostra a altura do Pokémon-->
                 <div id="altura"></div>
             </div>
 
+
             <div id="botoes">
+                <!--Botão para retornar 1 Pokémon-->
                 <button id="return">≺</button>
+                <!--Botão para avançar 1 Pokémon-->
                 <button id="advance">≻</button>
             </div>
 
         </div>
+
+
+        <!--Adiciona música-->
+        <button id="playMusic">Tocar música</button>
+
+        <audio id="bgMusic" loop>
+            <source src="./music/intro.mp3" type="audio/mp3">
+        </audio>
     </main>
+
 
 </body>
 

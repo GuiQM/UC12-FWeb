@@ -1,7 +1,7 @@
 function mostrarImagem() {
   const image = document.querySelector("#minhaImagem");
-  const button = document.querySelector(".button"); 
-  const main = document.querySelector("main")
+  const button = document.querySelector(".button");
+  const main = document.querySelector("main");
   const audio = document.querySelector("#audio");
 
   if (image.style.display === "none" || image.style.display === "") {
@@ -23,5 +23,5 @@ function mostrarImagem() {
     button.textContent = "Press Here";
     audio.pause();
     audio.currentTime = 0;
-  }
-}
+  };
+};
