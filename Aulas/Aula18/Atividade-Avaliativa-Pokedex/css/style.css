@@ -1,6 +1,7 @@
 /*Altera o plano de fundo*/
 body {
-    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-efeito-de-zoom-gradiente_23-2149717745.jpg?semt=ais_hybrid&w=740"); /*Imagem escolhida*/
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-efeito-de-zoom-gradiente_23-2149717745.jpg?semt=ais_hybrid&w=740");
+    /*Imagem escolhida*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,7 +9,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center; /*Coloca tudo ao centro da main*/
+    justify-content: center;
+    /*Coloca tudo ao centro da main*/
 }
 
 
@@ -81,7 +83,7 @@ main {
     width: 67%;
     height: auto;
     left: 15%;
-    
+
 }
 
 
@@ -93,7 +95,7 @@ main {
     font-weight: bold;
     height: 10%;
     width: 20%;
-    box-shadow: -3px 3px  3px black;
+    box-shadow: -3px 3px 3px black;
     cursor: pointer;
     z-index: 1;
 }
@@ -158,14 +160,14 @@ main {
     background-color: #C0C0C0;
     border-radius: 8px;
     cursor: pointer;
-   background-color: rgb(14, 156, 14);
-   box-shadow: 1.5px 1.5px  black;
+    background-color: rgb(14, 156, 14);
+    box-shadow: 1.5px 1.5px black;
 
 }
 
 
 /*Ícone de play e pause*/
-#iconMusic  {
+#iconMusic {
     height: 20px;
     width: auto;
 }
@@ -185,23 +187,138 @@ main {
 
 
 /*Animação de brilho*/
-@keyframes bright   {
-    0% {box-shadow: 0 0 10px #00a2ff;}
-    50% {box-shadow: 0 0 100px #00a2ff;}
-    100% {box-shadow: 0 0 10px #00a2ff;}
+@keyframes bright {
+    0% {
+        box-shadow: 0 0 10px #00a2ff;
+    }
+
+    50% {
+        box-shadow: 0 0 100px #00a2ff;
+    }
+
+    100% {
+        box-shadow: 0 0 10px #00a2ff;
+    }
 }
 
 
-.backType   {
+/*Define o fundo das informações*/
+.backType {
     position: absolute;
     top: 64%;
     left: 25%;
     z-index: 0;
     border-radius: 8px;
-}   
-
-#bug    {
-    background-color: green;
+    border: 2px solid black;
     width: 50%;
     height: 25%;
+}
+
+/*Define as cores das informações com variáveis*/
+
+/*Tipo inseto*/
+.back-bug {
+    --bug: #A8B820;
+}
+
+
+/*Tipo escuro*/
+.back-dark {
+    --dark: #705848;
+}
+
+
+/*Tipo dragão*/
+.back-dragon {
+    --dragon: #7038F8;
+}
+
+
+/*Tipo elétrico*/
+.back-electric {
+    --electric: #F8D030;
+}
+
+
+/*Tipo fada*/
+.back-fairy {
+    --fairy: #EE99AC;
+}
+
+
+/*Tipo lutador*/
+.back-fighting {
+    --fighting: #C03028;
+}
+
+
+/*Tipo fogo*/
+.back-fire {
+    --fire: #F08030;
+}
+
+
+/*Tipo voador*/
+.back-flying {
+    --flying: #A890F0;
+}
+
+
+/*Tipo fantasma*/
+.back-ghost {
+    --ghost: #705898;
+}
+
+
+/*Tipo grama*/
+.back-grass {
+    --grass: #78C850;
+}
+
+
+/*Tipo chão/terra*/
+.back-ground {
+    --ground: #E0C068;
+}
+
+
+/*Tipo gelo*/
+.back-ice {
+    --ice: #98D8D8;
+}
+
+
+/*Tipo normal*/
+.back-normal {
+    --normal: #A8A878;
+}
+
+
+/*Tipo veneno*/
+.back-poison {
+    --poison: #A040A0;
+}
+
+
+/*Tipo psiquico*/
+.back-psychic {
+    --psychic: #F85888;
+}
+
+
+/*Tipo pedra*/
+.back-rock {
+    --rock: #B8A038;
+}
+
+
+/*Tipo metálico*/
+.back-steel {
+    --steel: #B8B8D0;
+}
+
+
+/*Tipo água*/
+.back-water {
+    --water: #6890F0;
 }

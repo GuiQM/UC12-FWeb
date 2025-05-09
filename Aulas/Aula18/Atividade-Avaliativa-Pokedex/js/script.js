@@ -13,6 +13,11 @@ let returnP = document.querySelector("#return"); //Botão de voltar 1 Pokémon
 let advanceP = document.querySelector("#advance"); //Botão de avançar 1 Pokémon
 
 
+
+//Background de tipos
+let backType = document.getElementById("backType");
+
+
 //Chama a música de fundo do HTML
 const musicButton = document.getElementById("btnMusic"); //Botão para a Intro
 const musicBack = document.getElementById("bgMusic"); //Música
@@ -40,6 +45,11 @@ const tipoIcons = {
     flying: "./img/flying.png", //Tipo Voador
     normal: "./img/normal.png", //Tipo Normal
 };
+
+
+//Define as cores de fundo das informações
+
+
 
 
 let numeroPokedex = 1; //Define o pokémon para iniciar na Pokédex
@@ -79,6 +89,20 @@ const showPokemon = async (pokemon) => {
         sound.play(); //Roda o áudio
     }
     playAudio(dataPokemon.cries.legacy); //Chama os áudios da PokéAPI
+
+
+
+    //Altera a cor da descrição do Pokémon
+    backType.className = "backType"; //define a classe backtype
+    let tipoPrincipal = dataPokemon.types[0].type.name; //Puxa o tipo principal
+    let tipoSecundario = dataPokemon.types[1]?.type.name; //Puxa o tipo secundário
+
+    backType.classList.add(`back-${tipoPrincipal}`); //Atribui o valor da cor correspondente ao tipo principal para o backType pelo "back-nome"
+
+    if (tipoSecundario) { //Se tiver tipo secundário, é atribuido o valor do tipo secundário
+        backType.classList.add(`back-${tipoSecundario}`);
+    }
+    backType.style.background = `linear-gradient(to right, var(--${tipoPrincipal}), var(--${tipoSecundario || tipoPrincipal}))`; //Transforma o background em um gradiente linear com o tipo principal e secundário, se não tiver um tipo secundário, não há gradiente
 };
 
 
