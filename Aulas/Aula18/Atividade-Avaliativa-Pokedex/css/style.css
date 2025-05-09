@@ -1,21 +1,25 @@
+/*Altera o plano de fundo*/
 body {
-    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-efeito-de-zoom-gradiente_23-2149717745.jpg?semt=ais_hybrid&w=740");
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-efeito-de-zoom-gradiente_23-2149717745.jpg?semt=ais_hybrid&w=740"); /*Imagem escolhida*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
 main {
     display: flex;
-    justify-content: center;
+    justify-content: center; /*Coloca tudo ao centro da main*/
 }
 
 
+/*Imagem da Pokédex*/
 #figPokedex {
     height: 600px;
     width: 400px;
 }
 
 
+/*Imagem do Pokémon*/
 #imgPokemon {
     position: absolute;
     top: 20%;
@@ -28,6 +32,7 @@ main {
 }
 
 
+/*Altera o lugar do input na Pokédex*/
 #form {
     position: absolute;
     top: 56%;
@@ -35,15 +40,17 @@ main {
 }
 
 
+/*Altera o visual do nome e do ID do Pokémon*/
 #nomePokemon {
     position: absolute;
     top: 65%;
-    left: 34%;
+    left: 32%;
     font-weight: bold;
     font-size: 30px;
 }
 
 
+/*Altera o visual os tipos do Pokémon*/
 #informacoesPokemon1 {
     position: absolute;
     top: 70%;
@@ -53,6 +60,7 @@ main {
 }
 
 
+/*Altera o visual das informações restantes*/
 #informacoesPokemon2 {
     position: absolute;
     top: 77%;
@@ -61,6 +69,7 @@ main {
 }
 
 
+/*Altera o visual dos botões de avançar e retornar*/
 #botoes {
     display: flex;
     position: relative;
@@ -69,9 +78,11 @@ main {
     width: 67%;
     height: auto;
     left: 15%;
+    
 }
 
 
+/*Altera o visualespecificamente do botão de retornar*/
 #return {
     border-radius: 8px;
     font-size: 150%;
@@ -79,9 +90,12 @@ main {
     font-weight: bold;
     height: 10%;
     width: 20%;
+    box-shadow: -3px 3px  3px black;
+    cursor: pointer;
 }
 
 
+/*Altera o visualespecificamente do botão de avançar*/
 #advance {
     border-radius: 8px;
     font-size: 150%;
@@ -89,30 +103,38 @@ main {
     font-weight: bold;
     height: 10%;
     width: 20%;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
 }
 
 
+/*Deixa os Pokémons centralizados*/
 #divImgPoke {
     position: absolute;
     height: 25.5%;
     width: 53%;
-    top: 28%;
-    left: 22.1%;
+    top: 25%;
+    left: 19%;
     border-radius: 8px;
 
 }
 
 
+/*Altera o tamanho dos Pokémon exibidos*/
 #imgPoke {
     height: auto;
     width: 70px;
 }
 
+
+/*Altera o tamanho das informações dos Pokémons*/
 .tipos {
     height: auto;
     width: 20px;
 }
 
+
+/*Altera o tamanho do ícone do tipo de cada pokémon*/
 .icon-tipo {
     width: 20px;
     height: 20px;
@@ -120,11 +142,46 @@ main {
     margin-right: 5px;
 }
 
-#playMusic  {
-    top: 13%;
-    left: 53.5%;
-    background-color: #C0C0C0;
+
+/*Altera o visual do botão de tocar a música de fundo*/
+#btnMusic {
     position: absolute;
     height: 5%;
-    width: 5%;
+    width: 10%;
+    top: 12%;
+    left: 70%;
+    background-color: #C0C0C0;
+    border-radius: 8px;
+    cursor: pointer;
+   background-color: rgb(14, 156, 14);
+   box-shadow: 1.5px 1.5px  black;
+
+}
+
+
+/*Ícone de play e pause*/
+#iconMusic  {
+    height: 20px;
+    width: auto;
+}
+
+
+/*Animação de brilho da bolinha azul da Pokédex*/
+#brilho {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 4.5%;
+    left: 17%;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #00a2ff;
+    animation: bright 1.2s infinite alternate;
+}
+
+
+/*Animação de brilho*/
+@keyframes bright   {
+    0% {box-shadow: 0 0 10px #00a2ff;}
+    50% {box-shadow: 0 0 100px #00a2ff;}
+    100% {box-shadow: 0 0 10px #00a2ff;}
 }
