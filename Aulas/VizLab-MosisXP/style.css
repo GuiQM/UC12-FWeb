@@ -1,0 +1,141 @@
+body {
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
+#pg1 {
+    background-image: url("https://i.ytimg.com/vi/Wd7-HH-hlc8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCwLGYxM1yUQPLZt6C2n2nws8HIqA");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+.text-body-secondary {
+    color: blueviolet;
+}
+
+#pg2 {
+    background-image: url("./img/userGuide.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -450px;
+}
+
+#pg3 {
+    background-image: url("./img/teste.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 5px;
+}
+
+.central {
+    width: 200vh;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+    text-align: justify;
+    padding: 4.5%;
+    margin: 0;
+}
+
+.fundoPadrao-1 {
+    justify-self: center;
+    background-color: lightgray;
+    width: min-content;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(84, 84, 84);
+}
+
+#download h2 {
+    font-weight: bold;
+}
+
+.central h2 {
+    font-weight: bold;
+}
+
+.roxo {
+    color: purple !important;
+}
+
+a.btn.btn-lg.btn-primary {
+    background-color: rgb(0, 0, 0);
+    border: solid transparent;
+    box-shadow: 0px 0px 6px rgb(255, 0, 255);
+}
+
+a.btn.btn-lg.btn-primary:hover {
+    background-color: rgb(13, 13, 13);
+    box-shadow: 0px 0px 11px rgb(255, 0, 255);
+}
+
+#h2Titulos {
+    text-align: center;
+}
+
+#desenvolvimento {
+    padding: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#desenvolvimento h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.icone {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 15px;
+    height: 4vh;
+    width: auto;
+}
+
+.text-end button {
+    background-color: black;
+    border: solid transparent;
+    box-shadow: 0px 0px 6px rgb(255, 0, 255);
+    color: white;
+}
+
+#contatos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#guia p   {
+    width: 70%;
+}
+
+#botoes-final   {
+    display: flex;
+    justify-content: space-between;
+}
