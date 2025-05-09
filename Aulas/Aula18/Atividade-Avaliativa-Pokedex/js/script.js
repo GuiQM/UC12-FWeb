@@ -132,16 +132,16 @@ formP.addEventListener("submit", (event) => { //Function para mostrar o Pokémon
 returnP.addEventListener("click", (event) => { //Function para fazer o botão retornar um Pokémon ao ser clicado
     if (numeroPokedex > 1) { //Caso o Pokémon tiver um ID maior que um
         numeroPokedex = numeroPokedex - 1; //O número da Pokédex será diminuído em 1
-        showPokemon(numeroPokedex); //Mostra o Pokémon do respectivo número
     }
+    showPokemon(numeroPokedex); //Mostra o Pokémon do respectivo número
 });
 
 //Avançar
 advanceP.addEventListener("click", (event) => { //Function para fazer o botão avançar um Pokémon ao ser clicado
     if (numeroPokedex < 1024) { //Caso o Pokémon tiver um ID menor que 1024
         numeroPokedex = numeroPokedex + 1; //O número da Pokédex será aumentado em 1
-        showPokemon(numeroPokedex); //Mostra o Pokémon do respectivo número
     }
+    showPokemon(numeroPokedex); //Mostra o Pokémon do respectivo número
 });
 
 //Tocar música
@@ -160,3 +160,5 @@ musicButton.addEventListener("click", () => { //Function para fazer o botão pau
     }
     isPlaying = !isPlaying; //Alterna o isPlaying entre true e false, fazendo pausar e despausar
 });
+
+showPokemon(numeroPokedex);
