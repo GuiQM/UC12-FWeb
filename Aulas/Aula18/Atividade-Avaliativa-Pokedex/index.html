@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/style.css"> <!--Linka o CSS ao HTML-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokédex</title> <!--Título da Página-->
 </head>
 
 <body>
@@ -18,60 +18,58 @@
 
             <div id="divImgPoke">
                 <figure id="imgPokemon">
-                    <img id="imgPoke" src="" alt="">
+                    <img id="imgPoke" src="" alt=""> <!--Imagem do Pokémon exibido-->
                 </figure>
             </div>
 
 
-            <form id="form" action="imagem do pokemon">
-                <input id="inputForm" type="text">
+            <form id="form">
+                <input id="inputForm" type="text"> <!--Local de pesquisa do Pokémon-->
             </form>
 
 
             <div id="nomePokemon">
-                <span id="idPokemon"></span>
-                <span id="nomePoke"></span>
+                <span id="idPokemon"></span> <!--Mostra o ID-->
+                <span id="nomePoke"></span> <!--Mostra o nome-->
             </div>
 
 
             <div id="informacoesPokemon1">
-                <!--Mostra os tipos do Pokémon-->
                 <span id="tipo1"><b>Clique no botão ou <br> escreva o id/nome <br> para iniciar</b></span>
-                <!--Texto instruindo o que deve fazer para iniciar-->
-                <span id="tipo2"></span>
+                <!--Texto instruindo o que deve fazer para iniciar, local onde mostra o tipo 1 do Pokémon-->
+
+                <span id="tipo2"></span> <!--Local onde mostra o tipo 2 do Pokémon-->
             </div>
 
             <div id="informacoesPokemon2">
-                <!--Mostra a habilidade do Pokémon-->
-                <div id="habilidade"></div>
-                <!--Mostra o pesodo Pokémon-->
-                <div id="peso"></div>
-                <!--Mostra a altura do Pokémon-->
-                <div id="altura"></div>
+                <div id="habilidade"></div> <!--Local onde mostra a habilidade do Pokémon-->
+                <div id="peso"></div> <!--Local onde mostra o pesodo Pokémon-->
+                <div id="altura"></div> <!--Local onde mostra a altura do Pokémon-->
             </div>
 
 
             <div id="botoes">
-                <!--Botão para retornar 1 Pokémon-->
-                <button id="return">≺</button>
-                <!--Botão para avançar 1 Pokémon-->
-                <button id="advance">≻</button>
+                <button id="return">≺</button> <!--Botão para retornar 1 Pokémon-->
+                <button id="advance">≻</button> <!--Botão para avançar 1 Pokémon-->
             </div>
+
+                <button id="btnMusic">
+                    <img id="iconMusic" src="https://cdn-icons-png.flaticon.com/512/1709/1709973.png" alt="">
+                </button> <!--Botão para tocar a música de fundo-->
+    
+                <div id="brilho"></div> <!--Brilho bolinha azul Pokédex-->
 
         </div>
 
 
-        <!--Adiciona música-->
-        <button id="playMusic">Tocar música</button>
-
-        <audio id="bgMusic" loop>
-            <source src="./music/intro.mp3" type="audio/mp3">
+        <audio id="bgMusic" loop> <!--O Loop faz com que a música fique sempre tocando-->
+            <source src="./music/intro.mp3" type="audio/mp3"> <!--Música Intro Pokémon-->
         </audio>
     </main>
 
 
 </body>
 
-<script src="./js/script.js"></script>
+<script src="./js/script.js"></script> <!--Linka o JavaScript ao HTML-->
 
 </html>
