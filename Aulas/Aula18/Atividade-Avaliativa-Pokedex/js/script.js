@@ -124,15 +124,15 @@ advanceP.addEventListener("click", (event) => { //Function para fazer o botão a
 let isPlaying = false; //Música inicia pausada
 
 musicButton.addEventListener("click", () => { //Function para fazer o botão pausar/despausar a música ao ser clicado
-if(isPlaying) {
-    musicBack.pause(); //Caso a música estiver rodando, pausará
-    musicIcon.src = "https://cdn-icons-png.flaticon.com/512/1709/1709973.png"; //Altera o ícone exibido no botão
-    musicButton.style = "background-color: rgb(14, 156, 14)"; //Altera a cor de fundo
+    if (isPlaying) {
+        musicBack.pause(); //Caso a música estiver rodando, pausará
+        musicIcon.src = "https://cdn-icons-png.flaticon.com/512/1709/1709973.png"; //Altera o ícone exibido no botão
+        musicButton.style = "background-color: rgb(14, 156, 14)"; //Altera a cor de fundo
 
-}else   {
-    musicBack.play(); //Caso a música estiver pausada, retornará de onde parou
-    musicIcon.src = "https://cdn-icons-png.flaticon.com/512/4181/4181163.png"; //Altera o ícone exibido no botão
-    musicButton.style = "background-color: rgb(216, 18, 18)"; //Altera a cor de fundo
-}
-isPlaying = !isPlaying; //Alterna o isPlaying entre true e false, fazendo pausar e despausar
+    } else {
+        musicBack.play(); //Caso a música estiver pausada, retornará de onde parou
+        musicIcon.src = "https://cdn-icons-png.flaticon.com/512/4181/4181163.png"; //Altera o ícone exibido no botão
+        musicButton.style = "background-color: rgb(216, 18, 18)"; //Altera a cor de fundo
+    }
+    isPlaying = !isPlaying; //Alterna o isPlaying entre true e false, fazendo pausar e despausar
 });
